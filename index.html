@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday! 🎉</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="confetti-container" id="confettiContainer"></div>
+    
+    <div class="container">
+        <div class="birthday-card" id="mainCard">
+            <h1 class="title">Happy Birthday Cece! 🎂</h1>
+            <p class="message">
+                Wishing you the most amazing birthday filled with joy, laughter, and all your favorite things! 
+                You're the best friend anyone could ask for and honestly, my favorite lesbian! 😂💖
+            </p>
+            <p class="signature">
+                From Nate <span class="heart">❤️</span>
+            </p>
+            <button class="play-button" id="playButton">🎈 Play the Birthday Game! 🎈</button>
+        </div>
+
+        <div class="game-container" id="gameContainer">
+            <div class="game-header">
+                <h2>Pop the Balloons! 🎈</h2>
+                <p class="game-info">Click the balloons as fast as you can!</p>
+                <div class="score-board">
+                    <span>Score: <span id="score">0</span></span>
+                    <span>Time: <span id="timer">30</span>s</span>
+                </div>
+            </div>
+            <div class="game-area" id="gameArea"></div>
+            <div class="game-over" id="gameOver">
+                <h2>🎉 Awesome! 🎉</h2>
+                <p>You popped <span id="finalScore">0</span> balloons!</p>
+                <p class="game-message">You're amazing, just like your birthday! 💕</p>
+                <button class="play-again-button" id="playAgainButton">Play Again</button>
+                <button class="back-button" id="backButton">Back to Card</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
