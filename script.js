@@ -8,7 +8,7 @@ const gameOver = document.getElementById('gameOver');
 const finalScoreElement = document.getElementById('finalScore');
 const playAgainButton = document.getElementById('playAgainButton');
 const backButton = document.getElementById('backButton');
-const confettiContainer = document.getElementById('confettiContainer');
+const confettiContainer = document.getElementById('confettiContainer'); 
 
 let score = 0;
 let timeLeft = 30;
